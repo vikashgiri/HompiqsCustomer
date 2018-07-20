@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    >
+     <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_deactive"
+        android:title="@string/menu_bottom_label_home" />
+    <item
+        android:id="@+id/navigation_health_tips"
+        android:icon="@drawable/ic_healthtips"
+        android:title="@string/menu_bottom_label_health_tips" />
+    <item
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/ic_search"
+        android:title="@string/menu_bottom_label_explore" />
+
+    <item
+        android:id="@+id/navigation_my_account"
+        android:icon="@drawable/my_profile_deactive_small"
+        android:title="@string/menu_bottom_label_my_account" />
+
+    <item
+        android:id="@+id/navigation_my_order"
+        android:icon="@drawable/ic_my_order"
+        android:title="@string/my_order" />
+
+
+</menu>

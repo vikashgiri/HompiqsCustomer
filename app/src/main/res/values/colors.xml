@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E31E24</color>
+    <color name="colorPrimaryDark">#E31E24</color>
+    <color name="colorAccent">#E31E24</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="price_color">#107B27</color>
+    <color name="yellow_color">#F5C831</color>
+    <color name="gray_color">#ADADAD</color>
+    <color name="bottom_nav_background">#383838</color>
+
+    <color name="text_color">#888686</color>
+    <color name="blue">#3F418E</color>
+    <color name="deep_blue_logo_color">#233B77</color>
+    <color name="yellow">#E31E24</color>
+    <color name="orange">#E31E24</color>
+    <color name="light_black">#010101</color>
+    <color name="light_gray">#cdcdcdcd</color>
+    <color name="deep_yellow">#E5411E</color>
+
+</resources>

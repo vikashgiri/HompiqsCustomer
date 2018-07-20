@@ -1,0 +1,95 @@
+<resources>
+
+
+    <string name="email_address">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="login_with_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_you_can">or you can</string>
+    <string name="signup">SIGNUP</string>
+    <string name="first_name">First Name</string>
+    <string name="name">Name</string>
+    <string name="relation">Relation</string>
+    <string name="hello_world">Tap two locations in the map</string>
+    <string name="str_tv_distance_time">Distance</string>
+
+    <string name="last_name">Last Name</string>
+    <string name="e_mail_address">E-mail Address</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="app_name">Hompiq</string>\
+    <string name="connectio_error">Please Connect Internet</string>
+
+    //menu Bottom navigation lebel
+    <string name="menu_bottom_label_home">Home</string>
+    <string name="menu_bottom_label_explore">Search lab</string>
+    <string name="menu_bottom_label_health_tips">Health Tips</string>
+    <string name="menu_bottom_label_my_account">My Account</string>
+    <string name="menu_my_order">My Order</string>
+
+    //navigation drawer menu label
+    <string name="label_about_us">About Hompiq</string>
+    <string name="label_share">Share</string>
+    <string name="label_help">Help</string>
+    <string name="label_rate_us">Rate Us</string>
+    <string name="label_tearms_and_condition">T&amp;C</string>
+    <string name="label_call_us">Call Us</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_change_password">Change Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="lebel_add_my_first_address">Add my first address</string>
+    <string name="label_order_history_and_detail">Order history and detail</string>
+    <string name="lebel_my_credit_slips">My credit slips</string>
+    <string name="label_my_addresses">addresses</string>
+    <string name="label_addresses">addresses(Line 2)</string>
+
+    <string name="lebel_my_personal_information">My personal information</string>
+    <string name="lebel_my_vouchers">My vouchers</string>
+    <string name="label_my_wishlist">My wishlist</string>
+    <string name="label_blog_comments">Blog comments</string>
+    <string name="label_my_rewards_account">My rewards account</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="book_test">BOOK TEST</string>
+    <string name="best_laboretary_near_you">Best LABORATORY Near You</string>
+    <string name="add_to_cart">Add</string>
+    <string name="lab">Visit Lab</string>
+    <string name="labs">Lab</string>
+    <string name="test">Test</string>
+    <string name="home_collection">Home Collection</string>
+    <string name="visite_lab">Visite Lab</string>
+    <string name="remove">Remove</string>
+    <string name="mobile">Mobile</string>
+    <string name="book_now">Book Now</string>
+    <string name="home">Home</string>
+    <string name="search_test">Search Test</string>
+    <string name="checkout">CheckOut</string>
+    <string name="my_order">My Order</string>
+    <string name="Rs">\u20B9</string>
+    <string name="check_out">CheckOut</string>
+    <string name="cart_list">Diagnostic List</string>
+    <string name="prescription_list">Prescription</string>
+
+    <!--Fetch Address-->
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="notification">Notification</string>
+    <string name="clinic_ads">Clinic address</string>
+    <string name="age">Age</string>
+    //  11,13,14,15,    2,3,4,app 2
+
+</resources>

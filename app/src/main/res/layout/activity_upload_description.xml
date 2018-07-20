@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/layoutProfile"
+    android:background="#ffffff"
+    android:orientation="vertical"
+   android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_heading"
+        android:id="@+id/toolbar"></include>
+
+    <ImageView
+        android:id="@+id/user_profile_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:elevation="5dp"
+        android:layout_margin="@dimen/margin_10"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_20"
+        android:src="@android:drawable/ic_menu_camera" />
+    <AutoCompleteTextView
+        android:id="@+id/doctor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:hint="Enter Doctor Name">
+    </AutoCompleteTextView>
+
+    <EditText
+        android:id="@+id/patient_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:hint="Enter Patient Address">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@drawable/button_shape_yellow"
+        android:text="Upload"
+        android:layout_margin="@dimen/margin_10"
+        android:textColor="@color/white" />
+</LinearLayout>
+</layout>

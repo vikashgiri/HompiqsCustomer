@@ -1,0 +1,33 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    ><RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:descendantFocusability="beforeDescendants"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.infoicon.powercoin.bottomNavigation.fragment.NewProductFragment">
+<include layout="@layout/toolbar_heading"
+    android:id="@+id/mainToolbar"></include>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_checkout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.infoicon.powercoin.customView.CustomButton
+        android:id="@+id/btn_checkout"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="@string/checkout"
+        android:visibility="gone"
+
+        android:textColor="@color/white"
+        android:background="@color/yellow"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+</layout>

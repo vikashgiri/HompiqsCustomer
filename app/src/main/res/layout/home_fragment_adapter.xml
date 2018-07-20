@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_10"
+        android:elevation="5dp"
+        card_view:cardCornerRadius="@dimen/margin_5">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/root"
+    android:padding="@dimen/margin_5"
+    android:orientation="vertical"
+   >
+    <ImageView
+        android:id="@+id/image_lab"
+        android:layout_width="@dimen/nav_header_height_large"
+        android:layout_height="@dimen/nav_header_height_large"
+        android:scaleType="fitXY"
+        android:padding="@dimen/margin_5"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_toRightOf="@+id/image_lab"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/margin_10"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content">
+    <com.infoicon.powercoin.customView.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:id="@+id/lab_name"
+       android:text="Lal path Lab new delhi"
+        android:textSize="@dimen/default_text_size_large"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.infoicon.powercoin.customView.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/text_size_small"
+        android:id="@+id/ads"
+        android:layout_marginTop="@dimen/margin_5"
+        android:text="Health Consultant Delhi ."
+        />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:scaleX=".5"
+        android:layout_gravity="center_vertical"
+        android:rating="3.5"
+        android:layout_marginTop="@dimen/margin_10"
+        android:scaleY=".5"
+        android:transformPivotX="0dp"
+        android:max="5"/><!--
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_5"
+    android:layout_gravity="center"
+    android:weightSum="1"
+android:visibility="gone"
+    android:orientation="horizontal">
+    <com.infoicon.powercoin.customView.CustomTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/text_size_small"
+        android:gravity="center"
+        android:id="@+id/review"
+
+        android:text="5 \nReview"
+        />
+    <com.infoicon.powercoin.customView.CustomTextView
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:textSize="@dimen/text_size_small"
+android:gravity="center"
+        android:id="@+id/distane"
+        android:layout_gravity="center"
+        android:textColor="@color/light_black"
+        android:layout_height="wrap_content"
+        android:text="2.5\nKm"
+        />
+    <com.infoicon.powercoin.customView.CustomTextView
+        android:layout_weight="0.4"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_size_small"
+        android:id="@+id/opening_time"
+        android:textColor="@color/light_black"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Open\n09AM-12PM."
+        /></LinearLayout>-->
+</LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+</layout>

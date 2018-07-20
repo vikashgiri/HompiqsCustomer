@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar_heading"></include>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:id="@+id/text_date"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/margin_15"
+        android:paddingLeft="@dimen/margin_10"
+        android:background="@drawable/ic_search_et"
+        android:layout_margin="@dimen/margin_20"
+        android:text="Select Date"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_margin="@dimen/margin_20"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_search_et"
+        android:prompt="@string/app_name"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/deep_blue_logo_color"
+            android:textColor="@color/white"
+            android:padding="@dimen/margin_10"
+            android:layout_margin="@dimen/margin_10"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:padding="@dimen/margin_10"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+    </LinearLayout>
+</LinearLayout>
+</layout>

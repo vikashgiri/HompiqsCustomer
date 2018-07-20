@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg"
+
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_heading"
+        android:id="@+id/toolbar"></include>
+
+      <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_subcat"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btn_addaddress"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btn_addaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/yellow"
+
+
+        android:textColor="@android:color/white"
+        android:text="Add New Address"/>
+
+
+</RelativeLayout>

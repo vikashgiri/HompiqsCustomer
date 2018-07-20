@@ -1,0 +1,82 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <RelativeLayout
+        android:clickable="true"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:layout_above="@+id/bottom_progressBar"
+    android:descendantFocusability="beforeDescendants"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.infoicon.powercoin.bottomNavigation.fragment.NewProductFragment">
+        <com.infoicon.powercoin.customView.CustomButton
+            android:id="@+id/btnAddtoCard"
+android:layout_margin="@dimen/margin_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_to_cart"
+            android:padding="@dimen/margin_10"
+            android:textColor="@color/white"
+            android:background="@color/yellow"
+            android:layout_marginLeft="@dimen/margin_5"
+            />
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_search_et"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:textSize="16sp"
+            android:padding="10dp"
+            app:queryBackground="@android:color/transparent"
+            android:textColor="@color/gray_color"
+            android:text="Blood Test"
+            app:queryHint="@string/search_test"
+            app:iconifiedByDefault="false"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="@dimen/margin_20"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+</LinearLayout>
+        <ProgressBar
+            android:id="@+id/bottom_progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_5"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom" />
+    </RelativeLayout>
+
+</layout>

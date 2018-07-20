@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">9sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">9sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="margin_default">10dp</dimen>
+
+    <dimen name="margin_hammer">40dp</dimen>
+
+    <dimen name="padding_default">10dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_half">5dp</dimen>
+    <dimen name="padding_double">20dp</dimen>
+    <!--Text Sizes-->
+    <dimen name="text_size_regular">14dp</dimen>
+    <dimen name="text_size_regular_extra">16dp</dimen>
+
+    <!--Text Sizes-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="image_height_default">40dp</dimen>
+    <dimen name="image_height_profile">90dp</dimen>
+    <dimen name="image_height_small">25dp</dimen>
+    <dimen name="nav_header_height_large">110dp</dimen>
+    <dimen name="view_2_dp">1dp</dimen>
+    <dimen name="back_image_height">15dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+    <!--Text Sizes-->
+    <dimen name="text_size_small">12dp</dimen>
+    <dimen name="default_text_size_medium_extra">15dp</dimen>
+    <dimen name="default_text_size_large">18dp</dimen>
+    <dimen name="default_text_size_large_very">22dp</dimen>
+    <dimen name="image_small">40dp</dimen>
+    <dimen name="toolbar_height">50dp</dimen>
+    <dimen name="view_height">1dp</dimen>
+    <!--Text Sizes--><!--Padding-->
+
+</resources>

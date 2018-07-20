@@ -1,0 +1,41 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:background="@color/white"
+    android:descendantFocusability="beforeDescendants"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.infoicon.powercoin.bottomNavigation.fragment.NewProductFragment">
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_search_et"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:textSize="16sp"
+            android:padding="10dp"
+            app:queryBackground="@android:color/transparent"
+            android:textColor="@color/gray_color"
+            android:text="Blood Test"
+            app:queryHint="@string/search_test"
+            app:iconifiedByDefault="false"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</LinearLayout>
+
+</layout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_bg">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_30"
+            android:background="@drawable/ic_logo" />
+
+        <LinearLayout
+            android:id="@+id/linear_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_margin="@dimen/margin_15"
+            android:orientation="vertical">
+
+
+            <com.infoicon.powercoin.customView.CustomEditText
+                android:layout_width="match_parent"
+                android:id="@+id/email"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape_yellow"
+                android:drawableRight="@drawable/vector_email"
+                android:hint="@string/email_address"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/padding_medium"
+                android:paddingTop="@dimen/margin_30"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@null"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/default_text_size_medium_extra" />
+
+
+            <com.infoicon.powercoin.customView.CustomEditText
+                android:layout_width="match_parent"
+                android:textCursorDrawable="@null"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/button_shape_yellow"
+                android:drawableRight="@drawable/vector_eye"
+                android:hint="@string/password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:padding="@dimen/padding_medium"
+                android:paddingTop="@dimen/margin_30"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/default_text_size_medium_extra" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:orientation="horizontal">
+
+                <com.infoicon.powercoin.customView.CustomCheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:id="@+id/check_box"
+                    android:text="@string/remember_me"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/margin_20"
+                    android:layout_marginRight="@dimen/margin_20"
+                    android:background="@color/white"></View>
+
+                <com.infoicon.powercoin.customView.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/forgetPassword"
+                    android:text="@string/forget_password"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/button_shape_yellow"
+                android:text="@string/login"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:text="@string/signup"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</layout>

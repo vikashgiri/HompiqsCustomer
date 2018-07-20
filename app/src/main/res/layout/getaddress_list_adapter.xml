@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="8dp"
+        android:elevation="8dp"
+       android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/text2"
+                    android:layout_alignStart="@+id/text2"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_below="@+id/text2"
+                    android:text="city_id" />
+
+                <TextView
+                    android:id="@+id/text_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/text_order_date"
+                    android:layout_alignStart="@+id/text_order_date"
+                    android:layout_alignTop="@+id/text3"
+                    android:layout_marginTop="5dp"
+                    android:text="city_name" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                android:id="@+id/delete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_delete_black_24dp"
+               />
+            <CheckBox
+                android:id="@+id/check_box"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+</LinearLayout>        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

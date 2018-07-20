@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+
+        android:layout_marginLeft="@dimen/margin_10"
+
+        android:elevation="5dp"
+        card_view:cardCornerRadius="@dimen/margin_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="@dimen/margin_10"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/margin_5"
+            android:layout_height="wrap_content">
+            <com.infoicon.powercoin.customView.CustomTextView
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/padding_default"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:text="Blood Suger"
+                android:id="@+id/test_name"
+                android:textSize="@dimen/text_size_regular" android:textStyle="bold"
+                />
+            <com.infoicon.powercoin.customView.CustomTextView
+                android:id="@+id/txt_labName"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/padding_default"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_regular"
+                android:text="Lal Path Lab"
+                android:textColor="@color/deep_yellow"
+                />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:layout_weight="0.4"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+        <com.infoicon.powercoin.customView.CustomTextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/test_price"
+            android:text="₹ 250"
+            android:textSize="@dimen/text_size_small"
+            />
+        <com.infoicon.powercoin.customView.CustomTextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 200"
+            android:id="@+id/testpriceWithOffer"
+            android:textSize="@dimen/default_text_size_large"
+            android:textColor="@color/price_color"
+            />
+    </LinearLayout>
+        <com.infoicon.powercoin.customView.CustomButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/add_test"
+            android:text="@string/add_to_cart"
+            android:textColor="@color/white"
+            android:background="@color/yellow"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_weight="0.4"
+            />
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>
